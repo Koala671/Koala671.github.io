@@ -9,8 +9,9 @@
 						<a href="#">新手上路</a>
 						<ul class="sub-menu">
 						  <li><a href="/newbies/UISetting.html">介面設定</a></li>
-						  <li><a href="/newbies/Farm.html">錢與聲望</a></li>
-						  <li><a href="/newbies/tips.html">小技巧</a></li>
+						  <li><a href="/newbies/Silver.html">賺錢方式</a></li>
+						  <li><a href="/newbies/Fame.html">農聲望</a></li>
+						  <li><a href="/newbies/tips.html">小技巧</a><li>
 						  <li><a href="/newbies/QA.html">常見問題</a></li>
 						</ul>
 					  </li>
@@ -20,13 +21,13 @@
 							<li>
 								<a href="#">近戰武器</a>
 								<ul class="detail-menu">
-									<li><a href="/MeleeWeapon/Sword.html">劍</a></li>
-									<li><a href="/MeleeWeapon/Axe.html">斧頭</a></li>
-									<li><a href="/MeleeWeapon/Mace.html">錘矛</a></li>
-									<li><a href="/MeleeWeapon/Hammer.html">槌</a></li>
-									<li><a href="/MeleeWeapon/Gloves.html">拳套</a></li>
-									<li><a href="/MeleeWeapon/Spear.html">長矛</a></li>
-									<li><a href="/MeleeWeapon/Dagger.html">匕首</a></li>
+									<li><a href="#">劍</a></li>
+									<li><a href="#">斧頭</a></li>
+									<li><a href="#">錘矛</a></li>
+									<li><a href="#">槌</a></li>
+									<li><a href="#">拳套</a></li>
+									<li><a href="#">長矛</a></li>
+									<li><a href="#">匕首</a></li>
 								</ul>
 							</li>
 							<li>
@@ -82,9 +83,10 @@
 					  <li>
 						<a href="#">配裝介紹</a>
 						<ul class="sub-menu">
-						  <li><a href="/Gear/Gear-Solo.html">Solo</a></li>
-						  <li><a href="/Gear/Gear-Duo.html">Duo</a></li>
-						  <li><a href="/Gear/Gear-Group.html">Group</a></li>
+						  <li><a href="/newbies/UISetting.html">Solo</a></li>
+						  <li><a href="/newbies/Silver.html">Duo</a></li>
+						  <li><a href="/newbies/Fame.html">Group</a></li>
+						  <li><a href="/newbies/QA.html">常見問題</a></li>
 						</ul>
 					  </li>
 					</ul>

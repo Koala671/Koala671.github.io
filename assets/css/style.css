@@ -3,6 +3,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+	
+	background-color: hsl(240, 5%, 95%);
+    color: #000000; /* 白色文字 */
+	font-family: Arial, sans-serif,"Microsoft JhengHei","文鼎白玉書體";
+	
 }
 
 @font-face {
@@ -15,23 +20,35 @@ body {
 	margin :0;
     position: fixed;
 	top: 0; /* 与顶部对齐 */
-	 width: 100%;
+	width: 100%;
 	z-index: 1000; /* 设置堆叠顺序，确保header在其他元素之上 */
 }
+.contentPage{
+	/*background-image: url('../images/Wallpaper.jpeg');*/
+	margin:95px 350px;
+}
 
+/*------Header 開始------*/
 .footerPage {
     margin-top: auto;
 }
 .banner {
 	background:#000000;
 	color:white;
-	font-family: 'Kartex',Arial, sans-serif,"文鼎白玉書體";
-
+	font-weight:bold;
+	font-family: 'Kartex',Arial, sans-serif,"WenQuanYi Micro Hei","文鼎白玉書體";
 }
-.banner *{
-	
+.footer-banner {
+	background:hsl(255, 50%, 15%);
+	color:white;
+	text-align:right;
+	padding:10px 20px;
+	font-family: Arial, sans-serif,"WenQuanYi Micro Hei","文鼎白玉書體";
 }
-
+.footer-banner a{
+	color:#aaaaaa;
+	text-decoration: none;
+}
 .banner a{
 	color:white;
 	text-decoration: none;
@@ -55,7 +72,7 @@ body {
   padding-inline-start: 0px;
 }
 .main-menu>li {
-	margin:15px;
+	padding:15px;
 }
 .main-menu>li>a{
 	display: flex;
@@ -147,4 +164,64 @@ body {
 			display: flex;
 			justify-content: center;     /* 水平置中 */ 
 			align-content: center; /* 垂直置中 */
+}
+/*------Header 結束------*/
+
+/*--General--*/
+.artical {
+    margin-top: 60px; /* 添加這一行來增加 QA 內容與標題之間的間距 */
+}
+.box {
+    margin-bottom: 80px;
+	background-color : #ffffff;
+	padding :35px;
+}
+.box {
+	display:flex;
+	padding-left:40px;
+    margin-bottom: 20px;
+	align-items: flex-start;
+	width:100%;
+}
+.box img {
+    margin-left: 20px; /* 添加這一行來設定圖片與答案文本之間的間距 */
+    max-width: 100%; /* 讓圖片自適應父元素寬度 */
+    height: auto; /* 保持圖片高度自適應 */
+}
+.box table{
+	width:100%;
+}
+.box .text-field{
+	vertical-align:text-top;
+	width:70%;
+}
+
+/*--QA CSS--*/
+.qa-container {
+    margin-top: 60px; /* 添加這一行來增加 QA 內容與標題之間的間距 */
+}
+.question {
+    margin-bottom: 80px;
+	background-color : #ffffff;
+	padding :35px;
+}
+
+.answer {
+	display:flex;
+	padding-left:40px;
+    margin-bottom: 20px;
+	align-items: flex-start;
+	width:100%;
+}
+.answer img {
+    margin-left: 20px; /* 添加這一行來設定圖片與答案文本之間的間距 */
+    max-width: 100%; /* 讓圖片自適應父元素寬度 */
+    height: auto; /* 保持圖片高度自適應 */
+}
+.answer table{
+	width:100%;
+}
+.answer .text-field{
+	vertical-align:text-top;
+	width:70%;
 }
